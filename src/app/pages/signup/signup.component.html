@@ -1,0 +1,36 @@
+<!-- <div class="bootstrap-wrapper">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">.col-md-4</div>
+			<div class="col-md-4">.col-md-4</div>
+			<div class="col-md-4">.col-md-4</div>
+		</div>
+		<div class="row hidden-sm-down"> 
+			<div class="col-md-6">.col-md-6</div>
+			<div class="col-md-6">.col-md-6</div>
+		</div>
+	</div>
+</div> -->
+
+
+<div class="container-fluid h-100">
+	<div class="row justify-content-center h-100 align-items-center">
+		<div class="col-lg-6 col-md-6 col-sm-6">
+			<form action="" class="form-group" [formGroup] = "signupForm">
+				<div class="row justify-content-center">
+					<div class="col-lg-11 my-4">
+						<input type="text" formControlName = "userName" class="form-control" placeholder="Enter User Name">
+					</div>
+					<div class="col-lg-11">
+						<input type="password" formControlName = "password" class="form-control" placeholder="Enter Password">
+					</div>
+					<div class="row justify-content-center mt-3">
+						<div class="col-lg-2">
+							<button (click)="addFormData()" class="btn btn-primary">SUBMIT</button>
+						</div>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
